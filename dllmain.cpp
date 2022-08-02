@@ -1,5 +1,7 @@
-// dllmain.cpp : Defines the entry point for the DLL application.
-#include "pch.h"
+#define WIN32_LEAN_AND_MEAN
+
+#include <windows.h>
+#include <iostream>
 
 // steam api shit
 typedef int32_t SteamInventoryResult_t;
